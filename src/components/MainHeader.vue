@@ -49,8 +49,8 @@ export default {
             width: 100%;
             background-color: #0C7CEC;
             position: absolute;
-            height: 3px;
-            bottom: -72px;
+            height: 5px;
+            bottom: -63px;
             left: 0;
             right: 0;
             
