@@ -1,9 +1,7 @@
 <template>
     <div class="big">
         <div class="bg-color-cyan">
-            <div class="head container">
-                <HeaderFooter/>
-            </div>
+            <HeaderFooter/>
         </div>
         <div class=bg-img-footer>
             <div class="mid container">

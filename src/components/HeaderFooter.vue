@@ -1,5 +1,5 @@
 <template>
-    <div class="head_container">
+    <div class="head_container container">
         <div class="card_container">
             <figure>
                 <img src="../assets/img/buy-comics-digital-comics.png" alt="Banner Dc digital">
@@ -53,6 +53,7 @@
 
 <style lang="scss" scoped>
     .head_container {
+        height: 100%;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -66,12 +67,17 @@
         }
         figure {
             flex-basis: 20%;
+            img {
+                width: 45px;
+            }
         }
-        p {
+        div {
             flex-basis: 80%;
-            color: white;
-            
+            p {
+                color: white;
+            }
         }
+       
     }
 </style>
         
