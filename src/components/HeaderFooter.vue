@@ -5,7 +5,7 @@
                 <img src="../assets/img/buy-comics-digital-comics.png" alt="Banner Dc digital">
             </figure>
             <div>
-                <p class="text-uppercase">Digital Comics</p>
+                <p class="text-uppercase text-smaller">Digital Comics</p>
             </div>
         </div>
         <div class="card_container">
@@ -13,7 +13,7 @@
                 <img src="../assets/img/buy-comics-merchandise.png" alt="Dc Merchandise">
             </figure>
             <div>
-                <p class="text-uppercase">DC Merchandise</p>
+                <p class="text-uppercase text-smaller">DC Merchandise</p>
             </div>
         </div>
         <div class="card_container">
@@ -21,7 +21,7 @@
                 <img src="../assets/img/buy-comics-subscriptions.png" alt="Banner Dc digital">
             </figure>
             <div>
-                <p class="text-uppercase">Subscription</p>
+                <p class="text-uppercase text-smaller">Subscription</p>
             </div>
         </div>
         <div class="card_container">
@@ -29,7 +29,7 @@
                 <img src="../assets/img/buy-comics-shop-locator.png" alt="Banner Dc digital">
             </figure>
             <div>
-                <p class="text-uppercase">Comic Shop Locator</p>
+                <p class="text-uppercase text-smaller">Comic Shop Locator</p>
             </div>
         </div>
         <div class="card_container">
@@ -68,6 +68,7 @@
         p {
             flex-grow: 1;
             color: white;
+            
         }
     }
 </style>
