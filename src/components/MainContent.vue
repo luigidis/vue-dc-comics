@@ -1,5 +1,5 @@
 <template>
-    <div class="container">
+    <div class="bg-color-black">
         ---> Content goes here 
     </div>
 </template>
@@ -10,7 +10,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
- .container {
+ .bg-color-black {
     height: 160px;
     background-color: #1C1C1C;
     display: flex;

@@ -39,12 +39,10 @@ export default {
         color: #303030;
         font-weight: bold;
         text-transform: uppercase;
-        // align-self: stretch;
-        // position: relative;
         .navbar-item {
             position: relative;
         }
-        .navbar-item::after {
+        .navbar-item:hover::after {
             content: "";
             width: 100%;
             background-color: #0C7CEC;
@@ -53,10 +51,13 @@ export default {
             bottom: -63px;
             left: 0;
             right: 0;
-            
         }
     }
 }
+            
+        
+            
+        
         
 
         
