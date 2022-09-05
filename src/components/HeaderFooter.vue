@@ -1,0 +1,74 @@
+<template>
+    <div class="head_container">
+        <div class="card_container">
+            <figure>
+                <img src="../assets/img/buy-comics-digital-comics.png" alt="Banner Dc digital">
+            </figure>
+            <div>
+                <p class="text-uppercase">Digital Comics</p>
+            </div>
+        </div>
+        <div class="card_container">
+            <figure>
+                <img src="../assets/img/buy-comics-merchandise.png" alt="Dc Merchandise">
+            </figure>
+            <div>
+                <p class="text-uppercase">DC Merchandise</p>
+            </div>
+        </div>
+        <div class="card_container">
+            <figure>
+                <img src="../assets/img/buy-comics-subscriptions.png" alt="Banner Dc digital">
+            </figure>
+            <div>
+                <p class="text-uppercase">Subscription</p>
+            </div>
+        </div>
+        <div class="card_container">
+            <figure>
+                <img src="../assets/img/buy-comics-shop-locator.png" alt="Banner Dc digital">
+            </figure>
+            <div>
+                <p class="text-uppercase">Comic Shop Locator</p>
+            </div>
+        </div>
+        <div class="card_container">
+            <figure>
+                <img src="../assets/img/buy-dc-power-visa.svg" alt="Banner Dc digital">
+            </figure>
+            <div>
+                <p class="text-uppercase text-smaller">Dc Power Visa</p>
+            </div>
+        </div>
+    </div>
+    
+        
+</template>
+
+<script>
+    export default  {
+
+    }
+</script>
+
+<style lang="scss" scoped>
+    .head_container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        .card_container {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        figure {
+            flex-basis: 20%;
+        }
+        p {
+            flex-grow: 1;
+            color: white;
+        }
+    }
+</style>
+        

@@ -2,7 +2,7 @@
     <div class="big">
         <div class="bg-color-cyan">
             <div class="head container">
-                
+                <HeaderFooter/>
             </div>
         </div>
         <div class=bg-img-footer>
@@ -94,8 +94,13 @@
 </template>
 
 <script>
-    export default {
+    import HeaderFooter from './HeaderFooter.vue'
 
+    export default {
+        name: 'MainFooter',
+        components: {
+            HeaderFooter,
+        }
     }
 </script>
 
@@ -107,6 +112,13 @@
         .bg-color-cyan {
             height: 191px;
             background-color: $bg-cyan;
+            .head {
+                display: flex;
+                justify-content: space-between;
+                padding: 0 25px;
+                align-items: center;
+                height: 100%;
+            }
         }
             
         .bg-img-footer {
@@ -114,6 +126,7 @@
             background-image: url(../assets/img/footer-bg.jpg);
             background-position: center;
             background-repeat: no-repeat;
+            background-size: cover;
             .mid {
                 height: 100%;
                 .dc-logo-big {

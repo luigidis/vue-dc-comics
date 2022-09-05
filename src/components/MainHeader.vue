@@ -41,6 +41,7 @@ export default {
         text-transform: uppercase;
         .navbar-item {
             position: relative;
+            cursor: pointer;
         }
         .navbar-item:hover::after {
             content: "";
