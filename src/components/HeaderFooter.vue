@@ -54,19 +54,21 @@
 <style lang="scss" scoped>
     .head_container {
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
         gap: 10px;
         .card_container {
             display: flex;
             align-items: center;
             gap: 10px;
+            flex-basis: 0;
+            flex-grow: 1;
         }
         figure {
             flex-basis: 20%;
         }
         p {
-            flex-grow: 1;
+            flex-basis: 80%;
             color: white;
             
         }
