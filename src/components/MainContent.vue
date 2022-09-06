@@ -1,17 +1,21 @@
 <template>
     <div class="bg-color-black">
        <div class="container">
-            <div class="card" v-for="(banner,i) in banners" :key="i">
-                <img :src="banner.thumb" :alt=banner.type>
-                <h3>{{ banner.series}}</h3>
-            </div>
+            <CardComic v-for="(banner,i) in banners" :key="i" 
+                :series="banner.series" 
+                :thumb="banner.thumb" />
         </div>
 
     </div>
 </template>
 <script>
     import banners from '../banners'
+    import CardComic from './CardComic.vue'
+
     export default {
+        components: {
+            CardComic
+        },
         data() {
             return { 
                 banners: banners
@@ -31,23 +35,13 @@
         display: grid;
         grid-template-columns: repeat(6,1fr);
         gap: 30px;
-        .card {
-            padding: 10px;
-            display: flex;
-            flex-direction: column;
-            img {
-                width: 185px;
-                aspect-ratio: 1;
-                flex-basis: 80%;
-            }
-            h3 {
-                color: white;
-                text-transform: uppercase;
-            }
-        }
-            
-
+        padding: 10px;
+        
     }
 }
-    
 </style>
+       
+                
+            
+
+    
